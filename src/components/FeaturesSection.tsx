@@ -5,19 +5,19 @@ const features = [
     icon: FileSearch,
     title: 'Digital Audit & Strategy Blueprint',
     description: 'Get a comprehensive analysis of your current digital presence with actionable insights and a customized growth roadmap tailored to your business goals.',
-    gradient: 'from-blue-500 to-cyan-500'
+    gradient: 'from-red-500 to-orange-500'
   },
   {
     icon: TrendingUp,
     title: 'Ad Campaign Mockups & Performance Insights',
     description: 'Preview professional ad creatives designed for your brand, complete with projected performance metrics and optimization recommendations.',
-    gradient: 'from-purple-500 to-pink-500'
+    gradient: 'from-orange-500 to-yellow-500'
   },
   {
     icon: Users,
     title: 'Personalized Growth Consultation',
     description: 'Connect with our digital marketing experts for a one-on-one strategy session to unlock your brand\'s full potential and accelerate growth.',
-    gradient: 'from-orange-500 to-yellow-500'
+    gradient: 'from-red-600 to-pink-600'
   }
 ];
 
@@ -53,7 +53,7 @@ export default function FeaturesSection() {
               </p>
 
               <div className="mt-6 pt-6 border-t border-gray-100">
-                <div className="flex items-center text-blue-600 font-semibold group-hover:gap-2 transition-all">
+                <div className="flex items-center text-red-600 font-semibold group-hover:gap-2 transition-all">
                   <span>Included in trial</span>
                   <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -64,12 +64,12 @@ export default function FeaturesSection() {
           ))}
         </div>
 
-        <div className="mt-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-3xl p-12 text-center shadow-2xl">
+        <div className="mt-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-3xl p-12 text-center shadow-2xl">
           <div className="max-w-3xl mx-auto">
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Plus, Get Access to Our Premium Tools
             </h3>
-            <p className="text-blue-100 text-lg mb-8">
+            <p className="text-white/90 text-lg mb-8">
               Social media scheduler, SEO analyzer, competitor tracking, and more — all included in your trial
             </p>
             <div className="flex flex-wrap justify-center gap-4">

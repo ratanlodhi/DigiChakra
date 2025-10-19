@@ -30,8 +30,11 @@ export default function SignupSection() {
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Ready to Grow Faster?
             </h2>
-            <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Join 500+ brands who trust DigiChakra360 to scale their digital presence. Your free trial includes everything you need to experience real growth.
+            <p className="text-xl text-gray-600 mb-4 leading-relaxed">
+              Join 50+ brands across 30+ industries who trust DigiChakra360 to scale their digital presence.
+            </p>
+            <p className="text-lg text-gray-700 mb-8 font-medium italic">
+              Kyuki Aapki Jeet mein, Hamari jeet hain!
             </p>
 
             <div className="space-y-4 mb-8">
@@ -124,7 +127,7 @@ export default function SignupSection() {
 
                   <button
                     type="submit"
-                    className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+                    className="w-full bg-gradient-to-r from-red-600 to-orange-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:from-red-700 hover:to-orange-700 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
                   >
                     Claim My Free Trial
                   </button>
@@ -158,13 +161,13 @@ export default function SignupSection() {
 
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
-            { number: '500+', label: 'Active Clients' },
-            { number: '2.5M+', label: 'Leads Generated' },
-            { number: '98%', label: 'Client Satisfaction' },
-            { number: '250%', label: 'Avg. ROI Increase' }
+            { number: '50+', label: 'Brands Scaled' },
+            { number: '30+', label: 'Industries Served' },
+            { number: '5:1', label: 'Avg. ROAS' },
+            { number: '1CR+', label: 'Ad Spend Managed' }
           ].map((stat, index) => (
             <div key={index}>
-              <div className="text-4xl md:text-5xl font-bold text-transparent bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text mb-2">
+              <div className="text-4xl md:text-5xl font-bold text-transparent bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text mb-2">
                 {stat.number}
               </div>
               <div className="text-gray-600 font-medium">{stat.label}</div>
